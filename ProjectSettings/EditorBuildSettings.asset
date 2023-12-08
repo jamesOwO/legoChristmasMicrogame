@@ -17,7 +17,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/LEGO/Scenes/Menu Lose.unity
     guid: 23bd42193fd3048b7b6f4dedf8f3317a
-  - enabled: 1
+  - enabled: 0
     path: Assets/MicroGame 1.unity
     guid: 76747e19fec74784e840b9a9c172ae10
+  - enabled: 1
+    path: Assets/Nigel/new assets/Scenes/Menu Intro.unity
+    guid: dbc67710e275e5448b124d9ccbddc49f
+  - enabled: 0
+    path: Assets/Nigel/new assets/Scenes/Menu Credits.unity
+    guid: 72268d3f526024e9a9f13c1e35b726b7
+  - enabled: 1
+    path: Assets/Nigel/new assets/Scenes/Menu Levels.unity
+    guid: ef74a2675b4db4e478097bf17c437bd3
+  - enabled: 1
+    path: Assets/Nigel/new assets/Scenes/Menu Lose.unity
+    guid: b8392b397f7a85d499c1f57da19253e2
+  - enabled: 1
+    path: Assets/Nigel/new assets/Scenes/Menu Win.unity
+    guid: 63a5ba2db1ff5b74ca0a71ec853a051b
   m_configObjects: {}

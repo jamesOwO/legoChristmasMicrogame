@@ -15,7 +15,7 @@ C:/legoChristmasMicrogame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56289
+50686
 Successfully changed project path to: C:/legoChristmasMicrogame
 C:/legoChristmasMicrogame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/legoChristmasMicrogame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 142.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 148.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.028549 seconds.
+Registered in 0.033397 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,42 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 132.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
+- Completed reload, in  0.837 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1005ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (739ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-				TypeCache.Initialize (280ms)
-					TypeCache.ScanAssembly (279ms)
+			SetupTypeCache (124ms)
+				TypeCache.Initialize (124ms)
+					TypeCache.ScanAssembly (122ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (366ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (132ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (131ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015830 seconds.
+Registered in 0.015397 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -134,49 +134,49 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 147.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.650 seconds
+- Completed reload, in  1.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1651ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1711ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1357ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1410ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-				TypeCache.Initialize (323ms)
-					TypeCache.ScanAssembly (318ms)
-				ResolveRequiredComponents (13ms)
+			SetupTypeCache (372ms)
+				TypeCache.Initialize (358ms)
+					TypeCache.ScanAssembly (351ms)
+				ResolveRequiredComponents (14ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (772ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (775ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (148ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5813 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (417.8 KB). Loaded Objects now: 6265.
+Unloading 5815 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (422.0 KB). Loaded Objects now: 6271.
 Memory consumption went from 0.90 GB to 0.90 GB.
-Total: 4.109900 ms (FindLiveObjects: 0.579100 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.170100 ms  DeleteObjects: 0.207800 ms)
+Total: 7.249800 ms (FindLiveObjects: 1.004800 ms CreateObjectMapping: 0.411000 ms MarkObjects: 5.321400 ms  DeleteObjects: 0.510900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -190,200 +190,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 332120.174110 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(f29ffd3dad6834af492b737a3c919a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(f29ffd3dad6834af492b737a3c919a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61747a54b6143b33313becd26546814f') in 0.042629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 150.325340 seconds.
-  path: Assets/AddOns
-  artifactKey: Guid(ca304cf7f4b9dc2479340bbde6aa0cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns using Guid(ca304cf7f4b9dc2479340bbde6aa0cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a441d5c38f014b5faf661e64af96962') in 0.009212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.210024 seconds.
-  path: Assets/AddOns/MgLEGO Santas Brickshop
-  artifactKey: Guid(f5e7ac550200a4504969c8fac5c97e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Santas Brickshop using Guid(f5e7ac550200a4504969c8fac5c97e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067d4a12bc6378e65e715856e6f69122') in 0.010500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 113.681952 seconds.
-  path: Assets/AddOns/MgLEGO Santas Brickshop/Scenes
-  artifactKey: Guid(192612ee876ad4f138f6decefa5a2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Santas Brickshop/Scenes using Guid(192612ee876ad4f138f6decefa5a2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e04c5ec878e2227fb357d004f220251') in 0.010063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.984176 seconds.
-  path: Assets/AddOns/MgLEGO Santas Brickshop/Scenes/Santas Brickshop.unity
-  artifactKey: Guid(acace2a4b11ba4ac98fa2c83830e2d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Santas Brickshop/Scenes/Santas Brickshop.unity using Guid(acace2a4b11ba4ac98fa2c83830e2d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b99b493f05c56ab89326e074091d891') in 0.010235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.265644 seconds.
-  path: Assets/AddOns/MgLEGO Gingerbricks Revenge/Scenes
-  artifactKey: Guid(3f03d29d09b71c6499b35406edd0ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Gingerbricks Revenge/Scenes using Guid(3f03d29d09b71c6499b35406edd0ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825c5f89913cfcd40a18881cf5ec832') in 0.003344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.953001 seconds.
-  path: Assets/AddOns/MgLEGO Gingerbricks Revenge/Scenes/Gingerbricks Revenge.unity
-  artifactKey: Guid(a1ddbf0aec830774b950c2f65ef2a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Gingerbricks Revenge/Scenes/Gingerbricks Revenge.unity using Guid(a1ddbf0aec830774b950c2f65ef2a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b70d71bf28c55591def2a65be9bbda') in 0.013910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 268.270239 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8165099f8bfd50797b2ebe9f8b211b') in 0.012340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.840621 seconds.
-  path: Assets/MicroGame.unity
-  artifactKey: Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame.unity using Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17027623f0b4368661e2090708c13d70') in 0.014545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 175.986451 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a2fed03c1f071b749927e37a25de3224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a2fed03c1f071b749927e37a25de3224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c20dfdd438b4b178cf7d1fb0944b92') in 0.009640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.576369 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06ff7518c93fa7a16f3a53a85d38f58') in 0.011587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.858049 seconds.
-  path: Assets/AddOns/MgLEGO Gingerbricks Revenge
-  artifactKey: Guid(929785373cbdc7c4ca5308fcf2f4f20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Gingerbricks Revenge using Guid(929785373cbdc7c4ca5308fcf2f4f20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bd2daf6faecb3b0baee1350f9bdafe') in 0.009917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3072.617501 seconds.
-  path: Assets/AddOns/MgLEGO Santas Brickshop/Materials
-  artifactKey: Guid(e7679ca2fa74444a59fefb8b7777a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgLEGO Santas Brickshop/Materials using Guid(e7679ca2fa74444a59fefb8b7777a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd74f322f9abfc74795898220fd9bc7e') in 0.033297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 306.788025 seconds.
-  path: Assets/MicroGame.unity
-  artifactKey: Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame.unity using Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3496ca1a01dc5eaddd3352912b08ab') in 0.010016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1100.793312 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_NoSnow1.prefab
-  artifactKey: Guid(0b94787e83d06de44ab9db821c2c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_NoSnow1.prefab using Guid(0b94787e83d06de44ab9db821c2c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cd81a096be067e12423275895c4343') in 1.474313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab
-  artifactKey: Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab using Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53416172a2dbade436e3d95ebb92766') in 0.031814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_NoSnow3.prefab
-  artifactKey: Guid(3f9bc1a85199f7440a7dc65376e90332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_NoSnow3.prefab using Guid(3f9bc1a85199f7440a7dc65376e90332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960e977ec15bac2714b045604447104') in 0.025716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy2.prefab
-  artifactKey: Guid(01d2dd5255c308a4db25dbb77d9f65ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy2.prefab using Guid(01d2dd5255c308a4db25dbb77d9f65ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfad15a1bc2b508baac3f23b048af90') in 0.024177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab
-  artifactKey: Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab using Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbcd74f5d5bcda64748e661a180a067') in 0.022381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.857839 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/DemoScene.unity
-  artifactKey: Guid(cb9d7c2651d547a478a42e14850a45da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/DemoScene.unity using Guid(cb9d7c2651d547a478a42e14850a45da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6195c02cb2162b200106aec7887292d6') in 0.011263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.193806 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Materials
-  artifactKey: Guid(3ed2e8499a3174547b95db4181c32b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Materials using Guid(3ed2e8499a3174547b95db4181c32b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77639ab63991ca4a523c746180d20dc') in 0.008584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033915 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Materials/Leafs.mat
-  artifactKey: Guid(74ac8feb1771f87419e6bfae96a4313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Materials/Leafs.mat using Guid(74ac8feb1771f87419e6bfae96a4313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e51b5a66da2b125ca9fc4f347cb224') in 0.176480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 163.618763 seconds.
-  path: Assets/MicroGame.unity
-  artifactKey: Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame.unity using Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da30b3d771cd9079f894e599bbfa2dc4') in 0.010258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.669994 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Models/Snowy_Low_Poly_Trees.fbx
-  artifactKey: Guid(e6ec39770b6dbe04f9cbd7ea19e0c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Models/Snowy_Low_Poly_Trees.fbx using Guid(e6ec39770b6dbe04f9cbd7ea19e0c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187e979d0c072c723d214e178bb56891') in 0.493347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.365799 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab
-  artifactKey: Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab using Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97df092f4e6e050ff1b7a72f6bab10e') in 0.022605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.262253 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy2.prefab
-  artifactKey: Guid(01d2dd5255c308a4db25dbb77d9f65ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy2.prefab using Guid(01d2dd5255c308a4db25dbb77d9f65ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a69f38d116ced17c47dd460e35fb5dd') in 0.024383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.138209 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab
-  artifactKey: Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab using Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99d82b701d220bb2a373c640948fad5') in 0.020019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.057462 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_NoSnow1.prefab
-  artifactKey: Guid(0b94787e83d06de44ab9db821c2c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_NoSnow1.prefab using Guid(0b94787e83d06de44ab9db821c2c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2611b345549b490f6435407daecc5638') in 1.747146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab
-  artifactKey: Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy3.prefab using Guid(a6dbabfd6d3c8cb47b7243b0b8723af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3800ea782795578895105a189f33b602') in 0.023406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_NoSnow3.prefab
-  artifactKey: Guid(3f9bc1a85199f7440a7dc65376e90332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_NoSnow3.prefab using Guid(3f9bc1a85199f7440a7dc65376e90332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca34e10f76b8b5eff69086d4f3d761b') in 0.022360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab
-  artifactKey: Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowy_Low_Poly_Trees/Pine_Snowy1.prefab using Guid(78af3a7aad589fa49b8fb946c9e57362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8666f23a2fc8b975933e9fec41cc6d') in 0.021858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 797.489400 seconds.
-  path: Assets/MicroGame.unity
-  artifactKey: Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame.unity using Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37a72ae83d02f02284eceed6c96de9a') in 0.010752 seconds 
+  Time since last request: 346479.717648 seconds.
+  path: Assets/AddOns/MgLEGO Gingerbricks Revenge/Prefabs/Objectives/Objective Collect Presents.prefab
+  artifactKey: Guid(8bc13d8af84ddd54da4e5a432ba21429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Gingerbricks Revenge/Prefabs/Objectives/Objective Collect Presents.prefab using Guid(8bc13d8af84ddd54da4e5a432ba21429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e40aeca1b58c95285ecf5cba80f4a9d') in 1.902669 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014593 seconds.
+Registered in 0.015462 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -395,46 +209,112 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.081 seconds
+- Completed reload, in  1.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2083ms)
-		BeginReloadAssembly (612ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (26ms)
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (354ms)
-		EndReloadAssembly (1322ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-				TypeCache.Initialize (382ms)
-					TypeCache.ScanAssembly (364ms)
-				ResolveRequiredComponents (14ms)
+			SetupTypeCache (334ms)
+				TypeCache.Initialize (321ms)
+					TypeCache.ScanAssembly (313ms)
+				ResolveRequiredComponents (13ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (640ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (617ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5674 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (380.6 KB). Loaded Objects now: 6368.
+Unloading 5676 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (381.3 KB). Loaded Objects now: 6337.
 Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 7.755400 ms (FindLiveObjects: 0.730000 ms CreateObjectMapping: 0.476800 ms MarkObjects: 6.394700 ms  DeleteObjects: 0.152500 ms)
+Total: 4.482400 ms (FindLiveObjects: 0.546000 ms CreateObjectMapping: 0.152400 ms MarkObjects: 3.659900 ms  DeleteObjects: 0.122500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1632ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1294ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+				TypeCache.Initialize (336ms)
+					TypeCache.ScanAssembly (328ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.8 MB). Loaded Objects now: 6447.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 4.972000 ms (FindLiveObjects: 0.544000 ms CreateObjectMapping: 0.140400 ms MarkObjects: 3.033400 ms  DeleteObjects: 1.253000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -448,1325 +328,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 818.677871 seconds.
-  path: Assets/MicroGame.unity
-  artifactKey: Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame.unity using Guid(12fdce1c8d39d19409734fe267d109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e4f9bbf4d647eea98ca883c7b177ed') in 0.023971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 114.424453 seconds.
-  path: Assets/MicroGame 1.unity
-  artifactKey: Guid(3ffb6e4a4d0267b46a0916ebfafa8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicroGame 1.unity using Guid(3ffb6e4a4d0267b46a0916ebfafa8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1353bf64e394aef2744eaee2cb235a') in 0.015740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 267.605363 seconds.
-  path: Assets/Main model (42).prefab
-  artifactKey: Guid(e45f3a7b024661941852f7a87003d53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (42).prefab using Guid(e45f3a7b024661941852f7a87003d53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ba5015ff00b1c4522af012660823fa') in 1.684670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (3) Variant.prefab
-  artifactKey: Guid(66f241eaa0531a0489524ece94c58006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (3) Variant.prefab using Guid(66f241eaa0531a0489524ece94c58006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b63323f51e73bdc7947003c19b8f7e') in 0.035499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Pine_Snowy1 (13) Variant.prefab
-  artifactKey: Guid(f582cdc4ca1e2d24a94b7b7045939db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (13) Variant.prefab using Guid(f582cdc4ca1e2d24a94b7b7045939db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73ea4b2a6a1a3f95fe4c6b481cc5a94') in 0.030942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Main model (39).prefab
-  artifactKey: Guid(ceef2d1ce6ccbfd4a9e7ff055476933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (39).prefab using Guid(ceef2d1ce6ccbfd4a9e7ff055476933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977c67fd71dd43a19a892f2e4fc264d7') in 0.034803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy1 (8) Variant.prefab
-  artifactKey: Guid(96e4b9b665638044b8a341d1556c49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (8) Variant.prefab using Guid(96e4b9b665638044b8a341d1556c49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945aeb43e3fcd01ed4415d2f1d67c596') in 0.026120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Main model (32) Variant.prefab
-  artifactKey: Guid(b3f4fae57ed379842881f7d7787ceb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (32) Variant.prefab using Guid(b3f4fae57ed379842881f7d7787ceb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0bf1ea75ae712ba008db7c05482d6c') in 0.034090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.438088 seconds.
-  path: Assets/Pine_Snowy1 (16) Variant.prefab
-  artifactKey: Guid(e98849006d7518248b47ee5551429e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (16) Variant.prefab using Guid(e98849006d7518248b47ee5551429e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c4a072780e3fedf7a89c1813b5eb78') in 0.029225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pine_Snowy1 (19) Variant.prefab
-  artifactKey: Guid(475901c636003444e821e60d589bd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (19) Variant.prefab using Guid(475901c636003444e821e60d589bd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048d176a51f4450101cf9232f6b610c9') in 0.030262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy1 (31) Variant.prefab
-  artifactKey: Guid(865b10bb6aaa3144eb9eadd245325d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (31) Variant.prefab using Guid(865b10bb6aaa3144eb9eadd245325d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e14b7458b1d5282afbf3bf69601b14') in 0.028120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy1 (28) Variant.prefab
-  artifactKey: Guid(445d5a879ddff2a4e82d7143cf8b7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (28) Variant.prefab using Guid(445d5a879ddff2a4e82d7143cf8b7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae0417721cd264de5a5d0fc65f4ee9f') in 0.031349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (20) Variant.prefab
-  artifactKey: Guid(3e41b122c72bacb4e913bba43a7841bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (20) Variant.prefab using Guid(3e41b122c72bacb4e913bba43a7841bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24f99942002eaedb39123a34b84d2e') in 0.021734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy1 (27) Variant.prefab
-  artifactKey: Guid(54a665826a4047e4595e890daee8d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (27) Variant.prefab using Guid(54a665826a4047e4595e890daee8d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0689ed83781685589096ba95a937b56') in 0.025767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy1 (44) Variant.prefab
-  artifactKey: Guid(cc558a705b094f041b1e0e281e16d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (44) Variant.prefab using Guid(cc558a705b094f041b1e0e281e16d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2be24f967ed7c4f20001b3075e5cbbf') in 0.038432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy1 (38) Variant.prefab
-  artifactKey: Guid(c471a8d9dcacd4148a0508ce70e83e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (38) Variant.prefab using Guid(c471a8d9dcacd4148a0508ce70e83e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22df7edc29b6371a221cc01f4677515b') in 0.026130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy1 (30) Variant.prefab
-  artifactKey: Guid(4431f673a5db8f34688684be6a7296d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (30) Variant.prefab using Guid(4431f673a5db8f34688684be6a7296d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af365f2543d6c41472adbaa268cdfe67') in 0.025691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy1 (33) Variant.prefab
-  artifactKey: Guid(c51ac0c685db5104e8a736ac09d3d7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (33) Variant.prefab using Guid(c51ac0c685db5104e8a736ac09d3d7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a890c2e15cee938f7b540f134286666a') in 0.025538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Pine_Snowy1 (35) Variant.prefab
-  artifactKey: Guid(2071f47e85d53294e89525f9e37695d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (35) Variant.prefab using Guid(2071f47e85d53294e89525f9e37695d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960d055a83a59a19b644dc98584f92b9') in 0.022886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Main model (20) Variant.prefab
-  artifactKey: Guid(abeed64606a5b194d94fdc9bb87d4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (20) Variant.prefab using Guid(abeed64606a5b194d94fdc9bb87d4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a1487b249f264f0b9923a66d717dd2') in 0.041086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Main model (25) Variant.prefab
-  artifactKey: Guid(b45e17250e52a3c40a99dfb764cefe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (25) Variant.prefab using Guid(b45e17250e52a3c40a99dfb764cefe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3749cae407e043b5bf1db8ca106e51a4') in 0.035752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Main model (24) Variant.prefab
-  artifactKey: Guid(3b8d32774672bff4b9108b9e6ca3e0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (24) Variant.prefab using Guid(3b8d32774672bff4b9108b9e6ca3e0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed42b2464ceb112b8703ce38f0ccadd3') in 0.088305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Main model (14) Variant.prefab
-  artifactKey: Guid(b6e7e45037eda344eac275c8b45c19f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (14) Variant.prefab using Guid(b6e7e45037eda344eac275c8b45c19f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9436ecbf7506d98825ed4fcfac468a36') in 0.031255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fog Plane Variant.prefab
-  artifactKey: Guid(7189dc0c5e88cad45be5ea556aab4cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fog Plane Variant.prefab using Guid(7189dc0c5e88cad45be5ea556aab4cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c5cc5ec2a0038946e5ab1f49e47a21') in 0.036380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/4032 Variant.prefab
-  artifactKey: Guid(3ac99b6c5698ccc4ebecf5e295444b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4032 Variant.prefab using Guid(3ac99b6c5698ccc4ebecf5e295444b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5610ec5ced6914b9ce6fb510df77ea6e') in 2.335672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3665 (3) Variant.prefab
-  artifactKey: Guid(0838d534120f3f24999737e6df423ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3665 (3) Variant.prefab using Guid(0838d534120f3f24999737e6df423ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f15a0eaaae16bcbfbd16f50f28557d') in 0.047038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3069 Variant.prefab
-  artifactKey: Guid(c6f341a6b77471e4ea0e5b0b12ed59fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3069 Variant.prefab using Guid(c6f341a6b77471e4ea0e5b0b12ed59fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a229c16dd2ed53e8bcf48633210cb95') in 0.037838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/3022 (38) Variant.prefab
-  artifactKey: Guid(35018f8707b79944a8206adbcbfa43b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3022 (38) Variant.prefab using Guid(35018f8707b79944a8206adbcbfa43b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dd44f0a0fa32bcd05ecf98dea11bee') in 0.057156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3022 (40) Variant.prefab
-  artifactKey: Guid(ec42097b4d25c5f418fb72d4edbee665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3022 (40) Variant.prefab using Guid(ec42097b4d25c5f418fb72d4edbee665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c30a14818f13b3b0faf1ce05caca7b') in 0.065165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/11477 Variant.prefab
-  artifactKey: Guid(1ac512ebed7a6324fb6332378a9cae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/11477 Variant.prefab using Guid(1ac512ebed7a6324fb6332378a9cae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0497b1749cfcd2515157c074c65fbb3c') in 0.087190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy1 (50) Variant.prefab
-  artifactKey: Guid(7becd5a6d25255548b844ae48eccecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (50) Variant.prefab using Guid(7becd5a6d25255548b844ae48eccecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920910da0d37a640ea09031323efe3e0') in 0.036655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy1 (60) Variant 1.prefab
-  artifactKey: Guid(c5ea65e12262e7440803de9c365ec0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (60) Variant 1.prefab using Guid(c5ea65e12262e7440803de9c365ec0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e68b5de6f3da6f53ce39ea07940480d') in 0.029203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy1 (65) Variant.prefab
-  artifactKey: Guid(8c30dddc0f748684e9cc73030d936819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (65) Variant.prefab using Guid(8c30dddc0f748684e9cc73030d936819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983ebc7d2974c2628eaef24804a49bae') in 0.049865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy1 (77) Variant.prefab
-  artifactKey: Guid(e9bf01c3234973b4b87bbf4c52b84d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (77) Variant.prefab using Guid(e9bf01c3234973b4b87bbf4c52b84d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f87e596e044996e27d2e374222737b') in 0.023951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/87580 (9) Variant.prefab
-  artifactKey: Guid(5b6a7c49c36a77d46b65c2c81833375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/87580 (9) Variant.prefab using Guid(5b6a7c49c36a77d46b65c2c81833375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8850c4be1106be98fb54e6fedf0b82e1') in 0.027148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/87609 Variant.prefab
-  artifactKey: Guid(f47cfc030f591554983bb245bea10062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/87609 Variant.prefab using Guid(f47cfc030f591554983bb245bea10062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc4aba72864bb20974c06b2f12a7663') in 0.035866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy1 (84) Variant.prefab
-  artifactKey: Guid(e8d2dbe2881c31047a908f09a017c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (84) Variant.prefab using Guid(e8d2dbe2881c31047a908f09a017c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9611495ac7facbaace3412b4e9962c') in 0.025695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy1 (92) Variant.prefab
-  artifactKey: Guid(8e778537e9e7b40489fc58aa80553556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (92) Variant.prefab using Guid(8e778537e9e7b40489fc58aa80553556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb4fe7ea9fdadef51079a3c4ff2d2d') in 0.028367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy1 (80) Variant.prefab
-  artifactKey: Guid(bd63d4376c8c4f749b251b85e27ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (80) Variant.prefab using Guid(bd63d4376c8c4f749b251b85e27ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfdb9dcd98b9e0aeba029df1c1cbecd') in 0.026490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy1 (85) Variant.prefab
-  artifactKey: Guid(37349871f5ab6094ca779de17e62d6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (85) Variant.prefab using Guid(37349871f5ab6094ca779de17e62d6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d37dd5ccb22af4893f942a0a08bf557') in 0.023735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pine_Snowy1 (56) Variant.prefab
-  artifactKey: Guid(cb5595f857ffeea4bbecfff51e080d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (56) Variant.prefab using Guid(cb5595f857ffeea4bbecfff51e080d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e249c55fa02280cb773ce5c5a56d84') in 0.024190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pine_Snowy2 (5) Variant.prefab
-  artifactKey: Guid(2fc0634b9fa8f9d4ebb6553d43dd4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (5) Variant.prefab using Guid(2fc0634b9fa8f9d4ebb6553d43dd4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8143197c9056c0be4cd78d3096e1793f') in 0.025210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/61409 (3) Variant.prefab
-  artifactKey: Guid(7a8cacff1fb24824da42ebae422e1d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/61409 (3) Variant.prefab using Guid(7a8cacff1fb24824da42ebae422e1d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b06dfe2041c5fc4126495b52b6ce8cb') in 0.040987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (100) Variant.prefab
-  artifactKey: Guid(5354b8fcc84c4c64281cf22be90ce28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (100) Variant.prefab using Guid(5354b8fcc84c4c64281cf22be90ce28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c14302bc8f0177e78f2a9ec228f09') in 0.029911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pine_Snowy1 (68) Variant.prefab
-  artifactKey: Guid(ed3d3658629e3834ea67d1f688316828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (68) Variant.prefab using Guid(ed3d3658629e3834ea67d1f688316828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9ba11ae2040f388a8f5ed197b8426b') in 0.021147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (36) Variant.prefab
-  artifactKey: Guid(7f0ea8b80b6244748bbe5f3b5e891a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (36) Variant.prefab using Guid(7f0ea8b80b6244748bbe5f3b5e891a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b02a8ae752a01cd9768c43e1cffcc') in 0.027363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy1 (88) Variant.prefab
-  artifactKey: Guid(7694887e139241646aa5220ad239bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (88) Variant.prefab using Guid(7694887e139241646aa5220ad239bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215dfba77e11b36fe8907ca297722c11') in 0.024666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy1 (49) Variant.prefab
-  artifactKey: Guid(6f072bd5348ac5c46ab9b38f58c030c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (49) Variant.prefab using Guid(6f072bd5348ac5c46ab9b38f58c030c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e562bc062d4d4cf67b03efcf628152') in 0.028433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/23949 Variant.prefab
-  artifactKey: Guid(748a5793b7352ef45a91f61ac080a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/23949 Variant.prefab using Guid(748a5793b7352ef45a91f61ac080a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a059e1bba9dc35c99491648b69cb9a81') in 0.039421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy1 (53) Variant.prefab
-  artifactKey: Guid(ed991a70cda68b245b66821fbc1386fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (53) Variant.prefab using Guid(ed991a70cda68b245b66821fbc1386fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cd564b0243a5d682dcdc606a6083fb') in 0.025690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Pine_Snowy1 (59) Variant 1.prefab
-  artifactKey: Guid(f33f1930337066844a892004228dad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (59) Variant 1.prefab using Guid(f33f1930337066844a892004228dad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc5f5c1f9b1895b7de76148f4d0e46') in 0.024367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy2 (20) Variant.prefab
-  artifactKey: Guid(5257e035710435746a16bd61ce701a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (20) Variant.prefab using Guid(5257e035710435746a16bd61ce701a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d7ee4281ef51618b8bf1c3db64c864') in 0.023967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Main model (7) Variant.prefab
-  artifactKey: Guid(d3518272cec65314a8c09b7c048b60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (7) Variant.prefab using Guid(d3518272cec65314a8c09b7c048b60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276eae27a49a6269ef98cad3036dc448') in 0.033180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy2 (47) Variant.prefab
-  artifactKey: Guid(130e3cf63c6643042a5416f9bf40c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (47) Variant.prefab using Guid(130e3cf63c6643042a5416f9bf40c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb0e7f68a3282598a24bb6ad40cac46') in 0.026788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy2 (49) Variant.prefab
-  artifactKey: Guid(b4011488ff0ca224e94ff0f0c0aae4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (49) Variant.prefab using Guid(b4011488ff0ca224e94ff0f0c0aae4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8128837c9df798f26b1d03bed79ddf') in 0.025902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (52) Variant 1.prefab
-  artifactKey: Guid(1babfce2ae10dc641943c5778de423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (52) Variant 1.prefab using Guid(1babfce2ae10dc641943c5778de423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529050f8578e51106829196fb4b33e49') in 0.039054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (59) Variant.prefab
-  artifactKey: Guid(aceec2597c1effb4abb41687cc8f18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (59) Variant.prefab using Guid(aceec2597c1effb4abb41687cc8f18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff832ce571f85f5c6e40f500e9e1a29') in 0.028895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Pine_Snowy2 (41) Variant 1.prefab
-  artifactKey: Guid(7d185752e5e003f47be323039e80fa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (41) Variant 1.prefab using Guid(7d185752e5e003f47be323039e80fa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9c28820231626f4c3c77a6396e8d1') in 0.025617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Pine_Snowy1 (39) Variant.prefab
-  artifactKey: Guid(d3ab95cc185a8d3449f2b34ffcbb15ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (39) Variant.prefab using Guid(d3ab95cc185a8d3449f2b34ffcbb15ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d17e319e9ea47379fb04682992cdac') in 0.024841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (21) Variant.prefab
-  artifactKey: Guid(19ed2315afa023a429113c71260c3d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (21) Variant.prefab using Guid(19ed2315afa023a429113c71260c3d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050c6894ad7366ae1f03dabf4d672bd1') in 0.027986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy2 (42) Variant 1.prefab
-  artifactKey: Guid(0d8b4916bae2c8242a33210a5425d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (42) Variant 1.prefab using Guid(0d8b4916bae2c8242a33210a5425d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6294b9c69ea7e698e008758587c16516') in 0.079054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy1 (55) Variant.prefab
-  artifactKey: Guid(9776b59d29a837b4b90c8c61c4e45c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (55) Variant.prefab using Guid(9776b59d29a837b4b90c8c61c4e45c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186cdcf9bfd5f2cfa09cbe8da997901b') in 0.026331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy2 (103) Variant.prefab
-  artifactKey: Guid(00299ea5335713d4abb2ca913f4ad31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (103) Variant.prefab using Guid(00299ea5335713d4abb2ca913f4ad31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61329cf16216372d0305566c899160d4') in 0.026119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pine_Snowy2 (87) Variant.prefab
-  artifactKey: Guid(2dd67a7389e36994082f2b33a2597582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (87) Variant.prefab using Guid(2dd67a7389e36994082f2b33a2597582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47be4ef7598aecade2f988c9900cd29e') in 0.024702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pine_Snowy2 (75) Variant.prefab
-  artifactKey: Guid(aafefc8c9c4bedb48b012defde300084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (75) Variant.prefab using Guid(aafefc8c9c4bedb48b012defde300084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414d478508ff4a1298e7f4dcb246c101') in 0.025550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy1 (79) Variant.prefab
-  artifactKey: Guid(1a56e5c77a4fdc245b652283703d981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (79) Variant.prefab using Guid(1a56e5c77a4fdc245b652283703d981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db896a3dc5e395d0c85892b5107a295') in 0.024893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy1 (101) Variant.prefab
-  artifactKey: Guid(8895f03e906042947941ed96a7e9ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (101) Variant.prefab using Guid(8895f03e906042947941ed96a7e9ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7376daf039991642a48df22ddea944e') in 0.025549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy2 (47) Variant 1.prefab
-  artifactKey: Guid(89f162c42cc705d46997f6734152bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (47) Variant 1.prefab using Guid(89f162c42cc705d46997f6734152bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aa9a04809a4f2c37a35a9694b8e55e') in 0.027114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pine_Snowy2 (28) Variant.prefab
-  artifactKey: Guid(4b154528efc4cb94e9d9c121af6d880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (28) Variant.prefab using Guid(4b154528efc4cb94e9d9c121af6d880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cf2af8c907138b8fd266a74f294409') in 0.024017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Main model (22) Variant.prefab
-  artifactKey: Guid(b0731bfe902c8ba47b4534cad811e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (22) Variant.prefab using Guid(b0731bfe902c8ba47b4534cad811e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6eeb0ad61592d1cce33e3f867e6149') in 0.034584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (125) Variant.prefab
-  artifactKey: Guid(98c0d95714b55e04eb419fb9cb9a6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (125) Variant.prefab using Guid(98c0d95714b55e04eb419fb9cb9a6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d644603168dd6241eaa0aad652e189') in 0.024293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Pine_Snowy2 (117) Variant.prefab
-  artifactKey: Guid(762743068e6557e4c9e6240fb716a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (117) Variant.prefab using Guid(762743068e6557e4c9e6240fb716a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db9695a4abef9f3967dc9c236386655') in 0.029728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pine_Snowy2 (119) Variant.prefab
-  artifactKey: Guid(13dc5cdcdc47d814e95a74ddcd4ce615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (119) Variant.prefab using Guid(13dc5cdcdc47d814e95a74ddcd4ce615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd31c1786c4583ab4a3ed6c55293e046') in 0.025260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3795 Variant.prefab
-  artifactKey: Guid(3e6df17596967d34a8b92d77c9cc09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3795 Variant.prefab using Guid(3e6df17596967d34a8b92d77c9cc09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4588af1492da9f6419d012cef1ecb8a0') in 0.040866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/24866 (9) Variant.prefab
-  artifactKey: Guid(ae6184948267eb74481a139b470e9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/24866 (9) Variant.prefab using Guid(ae6184948267eb74481a139b470e9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdff44249002a03e3c3aebbf659e3485') in 0.057702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy1 (51) Variant.prefab
-  artifactKey: Guid(791fc6ecb0422fc4b97c72c16b977be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (51) Variant.prefab using Guid(791fc6ecb0422fc4b97c72c16b977be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a05893c2dbec442b369ac395941cbd3') in 0.024068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pine_Snowy2 (41) Variant.prefab
-  artifactKey: Guid(dc17f132b9fc6de46a08248dd0579e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (41) Variant.prefab using Guid(dc17f132b9fc6de46a08248dd0579e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bc23a8bf25edeb2043562540b4f720') in 0.022497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy2 (46) Variant.prefab
-  artifactKey: Guid(7c8a50b7f1aac82438831dde1ae32e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (46) Variant.prefab using Guid(7c8a50b7f1aac82438831dde1ae32e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3194e97380458173f568ad8b8912b20') in 0.025219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy1 (63) Variant.prefab
-  artifactKey: Guid(812d47fd3c42ee54abfed367a22d2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (63) Variant.prefab using Guid(812d47fd3c42ee54abfed367a22d2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db136a66d9da0c727072281f50ad5490') in 0.027751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Main model (17) Variant.prefab
-  artifactKey: Guid(412054a7a7a906943b5f444156891e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (17) Variant.prefab using Guid(412054a7a7a906943b5f444156891e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04a8c64ec7c73b50f00d27db7169f46') in 0.042253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy1 (90) Variant.prefab
-  artifactKey: Guid(c83f5bc5c1d301e4cb28da67ff5d256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (90) Variant.prefab using Guid(c83f5bc5c1d301e4cb28da67ff5d256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e59176844f06819b5f8ef94d5e418b') in 0.025686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main model (28) Variant.prefab
-  artifactKey: Guid(ffcc3aa81d81c414492d021310aa146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (28) Variant.prefab using Guid(ffcc3aa81d81c414492d021310aa146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd19fd4a1d64ee54e2434860ec27e035') in 0.035310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (49) Variant 1.prefab
-  artifactKey: Guid(c547763f43544fe40b4ae2a670b0f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (49) Variant 1.prefab using Guid(c547763f43544fe40b4ae2a670b0f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea275a0f3898ec06bb5a2b286f55a5be') in 0.023953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (54) Variant.prefab
-  artifactKey: Guid(aac745f0aeae3384fae5a6c91ea67eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (54) Variant.prefab using Guid(aac745f0aeae3384fae5a6c91ea67eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b66626be4af5e84db0ce54620b8ffe') in 0.027497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Pine_Snowy2 (29) Variant.prefab
-  artifactKey: Guid(7510721cbc2dcf34daf0d2c98faa1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (29) Variant.prefab using Guid(7510721cbc2dcf34daf0d2c98faa1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0566bc1dca8e02bafbe49589be6b25c') in 0.024052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/2412 Variant.prefab
-  artifactKey: Guid(cab858692dc6b174c87f4ec13f0cd3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2412 Variant.prefab using Guid(cab858692dc6b174c87f4ec13f0cd3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95d1a226ef0190e42c5334349d170f5') in 0.041936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pine_Snowy2 (82) Variant.prefab
-  artifactKey: Guid(57113e50bf7cf884cb9eb86926bb0c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (82) Variant.prefab using Guid(57113e50bf7cf884cb9eb86926bb0c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296b554f81d10693017cb9967e2e08e1') in 0.035896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy2 (27) Variant.prefab
-  artifactKey: Guid(2ff16db88063d0345b37745a6453ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (27) Variant.prefab using Guid(2ff16db88063d0345b37745a6453ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7ee2e6b1416e70aadde1cba590d0d9') in 0.024088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Main model (27) Variant.prefab
-  artifactKey: Guid(48249d507f8beea4c9cbadd9c6c12e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (27) Variant.prefab using Guid(48249d507f8beea4c9cbadd9c6c12e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d5b9e9b2bd9233106b0a92f2eb6480') in 0.031415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Default Variant.prefab
-  artifactKey: Guid(4e23df8268f7d5242be6a5868ccfdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Default Variant.prefab using Guid(4e23df8268f7d5242be6a5868ccfdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cc6e6192038d170aa80b61797fa9e7') in 0.043815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/3022 (37) Variant.prefab
-  artifactKey: Guid(1ce39cd74f529c74d9781617181431c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3022 (37) Variant.prefab using Guid(1ce39cd74f529c74d9781617181431c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b695ff65b66499618a1080694512909') in 0.033641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Pine_Snowy1 (24) Variant.prefab
-  artifactKey: Guid(5409acd6f04ddf0489d9e0e1f62e61a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (24) Variant.prefab using Guid(5409acd6f04ddf0489d9e0e1f62e61a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4d67fd606121384e774b9ad69233b') in 0.032211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (60) Variant.prefab
-  artifactKey: Guid(cf0ef4f1c46eb3940b4504d9af55edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (60) Variant.prefab using Guid(cf0ef4f1c46eb3940b4504d9af55edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054887d32560246eb60fe123bdb21cc9') in 0.025926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy2 (77) Variant.prefab
-  artifactKey: Guid(90d841e67630bd84783c03d2f69beb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (77) Variant.prefab using Guid(90d841e67630bd84783c03d2f69beb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfe5df0c9fa0d407c544413454275c8') in 0.028621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy2 (34) Variant.prefab
-  artifactKey: Guid(672b00ec016afcc47987da1232d83510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (34) Variant.prefab using Guid(672b00ec016afcc47987da1232d83510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad67a7037dfc20183a7b92ca6ad36779') in 0.027368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (95) Variant.prefab
-  artifactKey: Guid(f0241826231c3b444bc431f718de2998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (95) Variant.prefab using Guid(f0241826231c3b444bc431f718de2998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9556bba2654031e82196830b2e4e07b') in 0.029452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy2 (83) Variant.prefab
-  artifactKey: Guid(c606ca00d1dcf6e4fa2992511fb96263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (83) Variant.prefab using Guid(c606ca00d1dcf6e4fa2992511fb96263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6518467f3f569ba73b216104842df43') in 0.025955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (98) Variant.prefab
-  artifactKey: Guid(0f4c25922e13bef409f7e8a8bda24d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (98) Variant.prefab using Guid(0f4c25922e13bef409f7e8a8bda24d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb86f7e90f2a133bfb828b6e9a9645e0') in 0.026451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pine_Snowy2 (111) Variant.prefab
-  artifactKey: Guid(e519e347d98ec1c458704947e6d18372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (111) Variant.prefab using Guid(e519e347d98ec1c458704947e6d18372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4bee573703d508410e6ff72bbd448') in 0.025218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pine_Snowy1 (52) Variant.prefab
-  artifactKey: Guid(6f52e9044c3013343a4d27984a92d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (52) Variant.prefab using Guid(6f52e9044c3013343a4d27984a92d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8572438e17b053f5a1bdd875ad692563') in 0.023452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (79) Variant.prefab
-  artifactKey: Guid(fa3363a916700774fb23dc2abadd0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (79) Variant.prefab using Guid(fa3363a916700774fb23dc2abadd0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027c7db89d532a98c0ca6bb04dd9dea1') in 0.030150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pine_Snowy2 (104) Variant.prefab
-  artifactKey: Guid(280f7f77b1b7b3747aa37571e150ac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (104) Variant.prefab using Guid(280f7f77b1b7b3747aa37571e150ac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79a2246eb611058a4dce67ff7db807e') in 0.023869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy1 (69) Variant.prefab
-  artifactKey: Guid(865b41074d8640245a511db5433da955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (69) Variant.prefab using Guid(865b41074d8640245a511db5433da955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ce8a56da6e88245b3ce60e709f55c5') in 0.023482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/4032 (1) Variant.prefab
-  artifactKey: Guid(21d38007158c27b4894ec34d4875c053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4032 (1) Variant.prefab using Guid(21d38007158c27b4894ec34d4875c053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14eba4ad20f091f2af7642d11921b8a4') in 0.028932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3666 (1) Variant.prefab
-  artifactKey: Guid(64e0c8e53f0d9c54c92e29f203c2dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3666 (1) Variant.prefab using Guid(64e0c8e53f0d9c54c92e29f203c2dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5140988f607cc3e50c5aa826016a6') in 0.032221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pine_Snowy1 (58) Variant.prefab
-  artifactKey: Guid(6133c66143465ba41851e8e3f001c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (58) Variant.prefab using Guid(6133c66143465ba41851e8e3f001c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f84ddce6ec502702aceaf463c52b1d') in 0.028465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy2 (32) Variant.prefab
-  artifactKey: Guid(2b3a28f99c7999945b1b2612e9a5c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (32) Variant.prefab using Guid(2b3a28f99c7999945b1b2612e9a5c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35fa8277da35bc84c1093901975d861') in 0.026459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Main model (29) Variant.prefab
-  artifactKey: Guid(f04832d4c1c658845b47699b7e26392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (29) Variant.prefab using Guid(f04832d4c1c658845b47699b7e26392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a21679b116ce33603ef2c98561d1870') in 0.042184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pine_Snowy1 (81) Variant.prefab
-  artifactKey: Guid(fe018f09ffb39fe4aab1c71175f4edec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (81) Variant.prefab using Guid(fe018f09ffb39fe4aab1c71175f4edec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec7359b0e874c1507bae9b2af11e02e') in 0.027064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/3665 Variant.prefab
-  artifactKey: Guid(37ea2cfe1e4fcbc4ba34703ee3f15b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3665 Variant.prefab using Guid(37ea2cfe1e4fcbc4ba34703ee3f15b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c2d3306752fadbc0f3344a8ab626c7') in 0.036046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Main model (6) Variant.prefab
-  artifactKey: Guid(f1d5e44cacc7c7a4783bd3a4fee25692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (6) Variant.prefab using Guid(f1d5e44cacc7c7a4783bd3a4fee25692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a7d005ebe12efa9b138996a6ea1d8') in 0.033519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pine_Snowy2 (72) Variant.prefab
-  artifactKey: Guid(ea190194f4ede754aade59bd3ad3565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (72) Variant.prefab using Guid(ea190194f4ede754aade59bd3ad3565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b328d59afa163a742b067690808503b') in 0.036258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (17) Variant.prefab
-  artifactKey: Guid(b38f56c551ce58a49a8051460c38724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (17) Variant.prefab using Guid(b38f56c551ce58a49a8051460c38724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbec0b399c459a8848418d305373693') in 0.023819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/98138 (1) Variant 1.prefab
-  artifactKey: Guid(6499978f5af579c4eae13d4575ba4a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/98138 (1) Variant 1.prefab using Guid(6499978f5af579c4eae13d4575ba4a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7625b923d08e18d1301be103089131a') in 1.273384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Pine_Snowy1 (48) Variant.prefab
-  artifactKey: Guid(686f298f1a402744f87b9567cedf0297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (48) Variant.prefab using Guid(686f298f1a402744f87b9567cedf0297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fb1ea6f2de06b8a228a8193400a7e6') in 0.027191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pine_Snowy1 (75) Variant.prefab
-  artifactKey: Guid(4cbe5bf7f3866284aa184ef6f8600908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (75) Variant.prefab using Guid(4cbe5bf7f3866284aa184ef6f8600908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f4a0cadeaeaa776edb383b218d398b') in 0.027690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pine_Snowy1 (76) Variant.prefab
-  artifactKey: Guid(92242216c27d8a9429e95063633a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (76) Variant.prefab using Guid(92242216c27d8a9429e95063633a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0543c90d760b218356e7673f570a6b5') in 0.025839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy1 (93) Variant.prefab
-  artifactKey: Guid(87ac77328caac32499517eb9639f48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (93) Variant.prefab using Guid(87ac77328caac32499517eb9639f48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c9bf356747ae17013e3aa095131612') in 0.025831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy3 (5) Variant.prefab
-  artifactKey: Guid(8853e3336774bb14394b1a24a5f761b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy3 (5) Variant.prefab using Guid(8853e3336774bb14394b1a24a5f761b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896cc453fd613c80d85c9806221ea634') in 0.025817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Pine_Snowy2 (57) Variant.prefab
-  artifactKey: Guid(fe16731457bb9a64593f6cd8e8ab6b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (57) Variant.prefab using Guid(fe16731457bb9a64593f6cd8e8ab6b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d0355a58abea1a43b0cb989f7bce44') in 0.025098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy1 (61) Variant 1.prefab
-  artifactKey: Guid(f99a7b111c966754289c4b3e40136005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (61) Variant 1.prefab using Guid(f99a7b111c966754289c4b3e40136005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c619c412920fa7f56f7de6d7c7e14b91') in 0.025903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy1 (103) Variant.prefab
-  artifactKey: Guid(88e0dc352189e554a872191f01117bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (103) Variant.prefab using Guid(88e0dc352189e554a872191f01117bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410bedec350b05e25dc5196a68f90c78') in 0.024601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Main model (19) Variant.prefab
-  artifactKey: Guid(84953899b5a45ef4cb665244152f70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (19) Variant.prefab using Guid(84953899b5a45ef4cb665244152f70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa43699724fad22d9e6ebce00ee6393') in 0.031722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (52) Variant.prefab
-  artifactKey: Guid(482f498cfdde57449b59f23af70dd7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (52) Variant.prefab using Guid(482f498cfdde57449b59f23af70dd7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8682aa68c092bd0f3ff627147d08dff2') in 0.024345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy2 (54) Variant 1.prefab
-  artifactKey: Guid(ffb0d33d005066749836703dff57d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (54) Variant 1.prefab using Guid(ffb0d33d005066749836703dff57d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9e3a7c6479b321e356a890e74e18d8') in 0.027216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy1 (71) Variant.prefab
-  artifactKey: Guid(0b7abfd780b0e344394a4aba2e69ee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (71) Variant.prefab using Guid(0b7abfd780b0e344394a4aba2e69ee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4910e433507518ea9764fde34bac7967') in 0.026307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pine_Snowy1 (61) Variant 2.prefab
-  artifactKey: Guid(18a83956f7c3f63438f9269e770460d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (61) Variant 2.prefab using Guid(18a83956f7c3f63438f9269e770460d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fdc71f9cbd778016e1e87bd5d9b630') in 0.024207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy2 (53) Variant 1.prefab
-  artifactKey: Guid(754ed73b784ad984e8d442f6f6bf812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (53) Variant 1.prefab using Guid(754ed73b784ad984e8d442f6f6bf812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6577ee9014d2dae46f162d0e015248be') in 0.026746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/2412 (1) Variant.prefab
-  artifactKey: Guid(41954566bfbb85d4a80d32646f67a26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2412 (1) Variant.prefab using Guid(41954566bfbb85d4a80d32646f67a26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74f211039a9241a4afa7643a5e28e3e') in 0.030213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy1 (32) Variant.prefab
-  artifactKey: Guid(db4f44379894ace4c977f3a6a1be4ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (32) Variant.prefab using Guid(db4f44379894ace4c977f3a6a1be4ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d41a53a8fc955cda072c1a10ed7ed49') in 0.022443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy3 (3) Variant.prefab
-  artifactKey: Guid(dd8d14272d68849499a9009b255351c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy3 (3) Variant.prefab using Guid(dd8d14272d68849499a9009b255351c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5843c008f743bc12dcd6009a93e1d38d') in 0.024955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy2 (16) Variant.prefab
-  artifactKey: Guid(c44a42e71c3bca74a8923629a37a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (16) Variant.prefab using Guid(c44a42e71c3bca74a8923629a37a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0280a8565543f456b05f7bf1d17c1e49') in 0.024631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy2 (25) Variant.prefab
-  artifactKey: Guid(ba5d5d738a3f80047947fcee1a0c8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (25) Variant.prefab using Guid(ba5d5d738a3f80047947fcee1a0c8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5760d2d140cea8b29cfa14f95e24ac0') in 0.044255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy3 (1) Variant.prefab
-  artifactKey: Guid(9d0373afdfb981a4291b6192453c98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy3 (1) Variant.prefab using Guid(9d0373afdfb981a4291b6192453c98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2839c1662a677ebf7f5589b650eae3') in 0.029946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Pine_Snowy2 (92) Variant.prefab
-  artifactKey: Guid(deea7860aed7a4d44836a7bd43eafb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (92) Variant.prefab using Guid(deea7860aed7a4d44836a7bd43eafb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729b470a9bd36b110b18605f822b6172') in 0.026341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (51) Variant.prefab
-  artifactKey: Guid(fadc190594262d04a8382b204c4227a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (51) Variant.prefab using Guid(fadc190594262d04a8382b204c4227a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5474dc3ffc3b5409e2150ff13bfd1eb3') in 0.023821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (59) Variant.prefab
-  artifactKey: Guid(d225e32776299a74c9867e6e818aeeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (59) Variant.prefab using Guid(d225e32776299a74c9867e6e818aeeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ca1d159a4fa818eed8f19cd792a02') in 0.025677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Default (1) Variant.prefab
-  artifactKey: Guid(d95e1d9231f17964b9de91b193d3c559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Default (1) Variant.prefab using Guid(d95e1d9231f17964b9de91b193d3c559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dabcb5ad0faeeb5e7f4a21f6f3669bd') in 0.048429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Main model (4) Variant.prefab
-  artifactKey: Guid(178c08d7c9e91294883cf273e52471f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (4) Variant.prefab using Guid(178c08d7c9e91294883cf273e52471f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6955c60bfc5472bf0ab460d80e279ecb') in 0.034945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (114) Variant.prefab
-  artifactKey: Guid(3146bb335f4c1994383fbff65f02eddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (114) Variant.prefab using Guid(3146bb335f4c1994383fbff65f02eddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b652b648ed0007c8dbc22bcfac7291f') in 0.023939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy1 (105) Variant.prefab
-  artifactKey: Guid(f01e80e6bd457b648ad6fe6551d2dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (105) Variant.prefab using Guid(f01e80e6bd457b648ad6fe6551d2dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95310329e5e729f0f1964ebb3711f9') in 0.040396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy1 (43) Variant.prefab
-  artifactKey: Guid(c1c28ce0a12683f419e7067ec2e769da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (43) Variant.prefab using Guid(c1c28ce0a12683f419e7067ec2e769da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20962e7acc96ef228fde945d3b87810c') in 0.023346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy1 (61) Variant.prefab
-  artifactKey: Guid(d1f2f5e16038bc041bd011c655044101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (61) Variant.prefab using Guid(d1f2f5e16038bc041bd011c655044101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf4610c7d2cfc13b00c41bdd1c8204d') in 0.026465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy2 (127) Variant.prefab
-  artifactKey: Guid(c48e0dbffda6f5d43b5c356d27e7525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (127) Variant.prefab using Guid(c48e0dbffda6f5d43b5c356d27e7525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cdf789a9e8e293b16b5d438a67ada9') in 0.022343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Main model (23) Variant.prefab
-  artifactKey: Guid(6b7bb973b947e7a42b98d4390e3eccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (23) Variant.prefab using Guid(6b7bb973b947e7a42b98d4390e3eccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682b3947c9a706e07c02184881edb409') in 0.038325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/61409 (2) Variant.prefab
-  artifactKey: Guid(4b70612c5b746b040a5a16ba55da1f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/61409 (2) Variant.prefab using Guid(4b70612c5b746b040a5a16ba55da1f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433124a073f57f710b48fa8bf392312b') in 0.027648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Main model (10) Variant.prefab
-  artifactKey: Guid(334afc72f997cc04ea551adad1d9af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (10) Variant.prefab using Guid(334afc72f997cc04ea551adad1d9af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cb7851259ca4b5eab73cc904020088') in 0.036933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3010 (1) Variant.prefab
-  artifactKey: Guid(27b2779141d06f343bfc1a38c3e30403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3010 (1) Variant.prefab using Guid(27b2779141d06f343bfc1a38c3e30403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65efcc186a1ffdce2f76c775a8658725') in 0.032529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (55) Variant.prefab
-  artifactKey: Guid(18ede3c2dd3ca1f49a93216e3ee73459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (55) Variant.prefab using Guid(18ede3c2dd3ca1f49a93216e3ee73459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f79361b46698d406f7a2e599b6f25c') in 0.027295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy1 (106) Variant.prefab
-  artifactKey: Guid(82d2c140f47710c4895f2c3efff6cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (106) Variant.prefab using Guid(82d2c140f47710c4895f2c3efff6cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e6ac424e6e5e71113371cf5b4caea1') in 0.026131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (120) Variant.prefab
-  artifactKey: Guid(0f920291d2e1d0444a6c19e4a439a4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (120) Variant.prefab using Guid(0f920291d2e1d0444a6c19e4a439a4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b58ffb7bc622044098e4fa6542ddf9') in 0.023863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (31) Variant.prefab
-  artifactKey: Guid(405334b05c50fbc45bb0460f430d0552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (31) Variant.prefab using Guid(405334b05c50fbc45bb0460f430d0552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877bde3e320c32bccab724f9dd6d1546') in 0.023672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/11211 (1) Variant.prefab
-  artifactKey: Guid(4e383cc3c0027d146a39859f8cd58c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/11211 (1) Variant.prefab using Guid(4e383cc3c0027d146a39859f8cd58c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd506dc85f1356343fdc62a5d2e647b76') in 0.032999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (51) Variant 1.prefab
-  artifactKey: Guid(d43c409d42bf75a4899f0c0a8aac030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (51) Variant 1.prefab using Guid(d43c409d42bf75a4899f0c0a8aac030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804946edf97a9f959bbdb86b040fa269') in 0.025206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (23) Variant.prefab
-  artifactKey: Guid(95c3160084d39444f8c04bbbe6bd7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (23) Variant.prefab using Guid(95c3160084d39444f8c04bbbe6bd7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72cb8e0d09d9abdd01afb8bdc717603') in 0.031011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pine_Snowy1 (104) Variant.prefab
-  artifactKey: Guid(f68ad66976939b643b0c4ccde82da393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (104) Variant.prefab using Guid(f68ad66976939b643b0c4ccde82da393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e662d9cef219ecad81a579ed7b705473') in 0.025639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy1 (91) Variant.prefab
-  artifactKey: Guid(50ef5274b3681e84cb969158afbcfb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (91) Variant.prefab using Guid(50ef5274b3681e84cb969158afbcfb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bdd7a251bdcdfca04ab7110a8857a7') in 0.024517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (80) Variant.prefab
-  artifactKey: Guid(28d5f29ac8d248b40be2cb336b393fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (80) Variant.prefab using Guid(28d5f29ac8d248b40be2cb336b393fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69c2d20f2ee8303d5f1008045a249d5') in 0.045671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy2 (122) Variant.prefab
-  artifactKey: Guid(cc0ee82c75aa57e4b917a91936ad9648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (122) Variant.prefab using Guid(cc0ee82c75aa57e4b917a91936ad9648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a699cc147f4fd911a48d2fc9a3d2e3') in 0.027914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy2 (4) Variant.prefab
-  artifactKey: Guid(1a9916b4abb6ca24684f057e9b45f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (4) Variant.prefab using Guid(1a9916b4abb6ca24684f057e9b45f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d766fc99539ea9b8b51a20e0467395') in 0.026781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy2 (1) Variant.prefab
-  artifactKey: Guid(5ab0985eaaddcf24fb1fdb68ec9e18de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (1) Variant.prefab using Guid(5ab0985eaaddcf24fb1fdb68ec9e18de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed8ad65cfb43574a08799e531f2a738') in 0.075303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pine_Snowy2 (76) Variant.prefab
-  artifactKey: Guid(fb30bac3ea2f8c247a8dfe5fe23db8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (76) Variant.prefab using Guid(fb30bac3ea2f8c247a8dfe5fe23db8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50552a7eeb6e387cea2bae6076074fe') in 0.026727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy2 (50) Variant 1.prefab
-  artifactKey: Guid(6c3a1604b04413641a713087ae629aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (50) Variant 1.prefab using Guid(6c3a1604b04413641a713087ae629aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8259755ecc7ed630740907451f92fe5') in 0.022852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy2 (7) Variant.prefab
-  artifactKey: Guid(ac98877b3b6671b4fa949a6de51764b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (7) Variant.prefab using Guid(ac98877b3b6671b4fa949a6de51764b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6392a4da3872bee3dc2e39291e4aeb58') in 0.044451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3666 Variant.prefab
-  artifactKey: Guid(680debfc13a66be42a093d3ace5ba50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3666 Variant.prefab using Guid(680debfc13a66be42a093d3ace5ba50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bafcc1c42947a824aeb36c981870aa') in 0.029038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Main model (18) Variant.prefab
-  artifactKey: Guid(20e0823cba1e780419392e46f27b74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (18) Variant.prefab using Guid(20e0823cba1e780419392e46f27b74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2847918098a21501f09455563a3ec') in 0.033329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy1 Variant.prefab
-  artifactKey: Guid(3b4981ee25f606c429707d9a83143fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 Variant.prefab using Guid(3b4981ee25f606c429707d9a83143fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6539e6add787c9b2f7dc571c2360f1') in 0.024475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pine_Snowy2 (46) Variant 1.prefab
-  artifactKey: Guid(e424451418a281e469374f3cebfa995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (46) Variant 1.prefab using Guid(e424451418a281e469374f3cebfa995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eab3953425ee3a409fca1360a4ad60') in 0.031324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pine_Snowy2 (44) Variant.prefab
-  artifactKey: Guid(29ad7399e12e90c4abaf32eff6d894e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (44) Variant.prefab using Guid(29ad7399e12e90c4abaf32eff6d894e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1979152960b2ecee00d8410371a61bec') in 0.027271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy2 (64) Variant.prefab
-  artifactKey: Guid(eba23a8453fd0654e9561b2293ac7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (64) Variant.prefab using Guid(eba23a8453fd0654e9561b2293ac7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f42527c21345fac5b34023006d0f61') in 0.027073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy2 (108) Variant.prefab
-  artifactKey: Guid(352a4081c147dea48b6abc5601bcb0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (108) Variant.prefab using Guid(352a4081c147dea48b6abc5601bcb0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb709e76a6eb05fda15947dce7d20f83') in 0.024435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pine_Snowy2 (116) Variant.prefab
-  artifactKey: Guid(adad64b4592d01342a234e0c70fa6ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (116) Variant.prefab using Guid(adad64b4592d01342a234e0c70fa6ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dad1baf4e11edcb2b99d5f2cb38393') in 0.025431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy2 (97) Variant.prefab
-  artifactKey: Guid(1c3319afc2d9ef64ca9f858c59210c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (97) Variant.prefab using Guid(1c3319afc2d9ef64ca9f858c59210c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8076a10b30eb06194e9feb1bc5b3fd08') in 0.023270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (6) Variant.prefab
-  artifactKey: Guid(584d1b3ea3ee50e478c59a22a19d311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (6) Variant.prefab using Guid(584d1b3ea3ee50e478c59a22a19d311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0d8351464cc7ce925f79db1727484b') in 0.024872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pine_Snowy1 (87) Variant.prefab
-  artifactKey: Guid(76dbcceaf4cd40c419c662c8c0683f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (87) Variant.prefab using Guid(76dbcceaf4cd40c419c662c8c0683f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d3f25a77e6661a42ec72a6bc7cb37') in 0.030203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy2 (50) Variant.prefab
-  artifactKey: Guid(a5296606680019042b2216b535b65cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (50) Variant.prefab using Guid(a5296606680019042b2216b535b65cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48023d02c9b60edbfd826ab07e035a33') in 0.023260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/11211 Variant.prefab
-  artifactKey: Guid(426aee77129fa20458ca2ef7661afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/11211 Variant.prefab using Guid(426aee77129fa20458ca2ef7661afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d122a0ce1c7b8d1e60204f5317a3c1a') in 0.028454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (78) Variant.prefab
-  artifactKey: Guid(cba53fddf53595e4fa25e41b1120c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (78) Variant.prefab using Guid(cba53fddf53595e4fa25e41b1120c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d33e67630c1af8debe729a155c38e43') in 0.023935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Main model (3) Variant.prefab
-  artifactKey: Guid(d7493c9ce3430964ea4d4ecf45637817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (3) Variant.prefab using Guid(d7493c9ce3430964ea4d4ecf45637817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab7e29d7d1b96e6b27f23d30c8f002e') in 0.032272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Pine_Snowy2 (126) Variant.prefab
-  artifactKey: Guid(4f2f6a5310350a941aa65502dd59ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (126) Variant.prefab using Guid(4f2f6a5310350a941aa65502dd59ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e368e8f657573a35168b1d28581849ee') in 0.024177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main model (16) Variant.prefab
-  artifactKey: Guid(8fb65586a46bc0f44b9a0c6f1631a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (16) Variant.prefab using Guid(8fb65586a46bc0f44b9a0c6f1631a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e9a3420621e2192ab95899b74911cd') in 0.038033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy2 (3) Variant.prefab
-  artifactKey: Guid(77c93a21736d40a439dd173f79102fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (3) Variant.prefab using Guid(77c93a21736d40a439dd173f79102fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08055d9eb1260b0de0b6194c7d619f15') in 0.027098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy1 (74) Variant.prefab
-  artifactKey: Guid(c2e5d2790ccb7494d89d89d57f372a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (74) Variant.prefab using Guid(c2e5d2790ccb7494d89d89d57f372a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506dee818f6e75f6d1842babb1071528') in 0.027661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (101) Variant.prefab
-  artifactKey: Guid(8432a9943297c04488ab7a1943ad43bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (101) Variant.prefab using Guid(8432a9943297c04488ab7a1943ad43bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819ef471aca677d6c3cba514cb0b6fab') in 0.025700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy1 (67) Variant.prefab
-  artifactKey: Guid(5b0fcfcb15a420a48933cca527ed9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (67) Variant.prefab using Guid(5b0fcfcb15a420a48933cca527ed9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2010ad2dc331c76ec0178d3171169c8') in 0.026088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy1 (94) Variant.prefab
-  artifactKey: Guid(dcf7c7fcec54d6a47b44054567c45546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (94) Variant.prefab using Guid(dcf7c7fcec54d6a47b44054567c45546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7b00c3ea522d942f9550984da16f7') in 0.023779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Pine_Snowy2 (9) Variant.prefab
-  artifactKey: Guid(5ba9fad4b5c2c3040beadc0751351800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (9) Variant.prefab using Guid(5ba9fad4b5c2c3040beadc0751351800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17130fdd14ba3edb297a6b8e3b9be1f') in 0.025261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy2 (11) Variant.prefab
-  artifactKey: Guid(eb267926ef23e02478c827607712e529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (11) Variant.prefab using Guid(eb267926ef23e02478c827607712e529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c3f9b3270ee7e724686639624b8ba') in 0.021692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pine_Snowy2 (45) Variant.prefab
-  artifactKey: Guid(e16bd4d7175f4b441ba7a3bbe9a0c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (45) Variant.prefab using Guid(e16bd4d7175f4b441ba7a3bbe9a0c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73d580eb5b0de4e2315827a2b66cb4a') in 0.027449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/18653 (1) Variant.prefab
-  artifactKey: Guid(031ddd93a0f46f940bb5092670fa16f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/18653 (1) Variant.prefab using Guid(031ddd93a0f46f940bb5092670fa16f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a546805f681331b81cdb36b00d96a43') in 0.025511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy2 (22) Variant.prefab
-  artifactKey: Guid(ab69adc9f631d44428c9d84ec0e5b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (22) Variant.prefab using Guid(ab69adc9f631d44428c9d84ec0e5b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1484ef7efd0f550efa72aca11c8d8f6') in 0.025878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (115) Variant.prefab
-  artifactKey: Guid(7db48c9a05b083046879479782d163a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (115) Variant.prefab using Guid(7db48c9a05b083046879479782d163a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bfad76007021730ef89e3d570b81ca') in 0.026982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Main model (9) Variant.prefab
-  artifactKey: Guid(2084b1708d2064742b280d20dd8d0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (9) Variant.prefab using Guid(2084b1708d2064742b280d20dd8d0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e95157ec638a4b10d133c3bbe1e69b') in 0.033623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pine_Snowy2 (85) Variant.prefab
-  artifactKey: Guid(16bbe80c03646454cae3bb5ccef367b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (85) Variant.prefab using Guid(16bbe80c03646454cae3bb5ccef367b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b4a0c9c43406b6817b0f0a7a5b004c') in 0.130878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pine_Snowy2 (30) Variant.prefab
-  artifactKey: Guid(646d8ca30cc93c1499438b28185f972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (30) Variant.prefab using Guid(646d8ca30cc93c1499438b28185f972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c273d66a472a57c86d58fe1aafda48') in 0.055708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/61409 (1) Variant.prefab
-  artifactKey: Guid(1ec5a4e770e05484badf2053ab447a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/61409 (1) Variant.prefab using Guid(1ec5a4e770e05484badf2053ab447a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaf006cc1422d8e6db181129691dc1e') in 0.074919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pine_Snowy2 (67) Variant 1.prefab
-  artifactKey: Guid(324b3009a4374b74f820452d94691d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (67) Variant 1.prefab using Guid(324b3009a4374b74f820452d94691d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0c232efa1670ef4fac5d1b5f494bd8') in 0.082161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main model (5) Variant.prefab
-  artifactKey: Guid(11591a3feb50fcd40a75126dd5cff788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (5) Variant.prefab using Guid(11591a3feb50fcd40a75126dd5cff788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a0da8626e87194d5da1a45252ee3af') in 0.033155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Pine_Snowy2 (8) Variant.prefab
-  artifactKey: Guid(e6b1bcc0de11d2d42bf3950af76efe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (8) Variant.prefab using Guid(e6b1bcc0de11d2d42bf3950af76efe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb3982c3a805a98a2c77b09062ea3e8') in 0.023087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (90) Variant.prefab
-  artifactKey: Guid(0312f7c679c693940b5c6d35905bee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (90) Variant.prefab using Guid(0312f7c679c693940b5c6d35905bee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e60b597b6f0980bed213edbf3e2a8bb') in 0.024688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Main model (15) Variant.prefab
-  artifactKey: Guid(eb5eac2df26a56a41bb37493a1ec03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (15) Variant.prefab using Guid(eb5eac2df26a56a41bb37493a1ec03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43c2346555d4db8b99c566306d685b8') in 0.037184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pine_Snowy2 (93) Variant.prefab
-  artifactKey: Guid(c76467bf513ee8f4a8b14aeefa6c8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (93) Variant.prefab using Guid(c76467bf513ee8f4a8b14aeefa6c8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966f7c7b2090f5fceb89eb6a015d9d0f') in 0.030615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pine_Snowy1 (66) Variant.prefab
-  artifactKey: Guid(9a1e2f0e349062148b3a485451630e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (66) Variant.prefab using Guid(9a1e2f0e349062148b3a485451630e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3209af78df006adf0d5b67e63ba0542b') in 0.026174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (96) Variant.prefab
-  artifactKey: Guid(dd60116eed8c3bc4294528ed5e355e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (96) Variant.prefab using Guid(dd60116eed8c3bc4294528ed5e355e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bcfc246558fa6b11b7c8b49e254865') in 0.025914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3069 (1) Variant.prefab
-  artifactKey: Guid(541e1d73434fe6e43a71580e1655d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3069 (1) Variant.prefab using Guid(541e1d73434fe6e43a71580e1655d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de60aec58d5f5e004139153aee6bdfd4') in 0.026896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Main model (1) Variant.prefab
-  artifactKey: Guid(933d0f7b019745842bcd7e057433ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main model (1) Variant.prefab using Guid(933d0f7b019745842bcd7e057433ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b2840214f5aab7a047478b45a705e3') in 0.029170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/19121 Variant.prefab
-  artifactKey: Guid(2b3cfdb2af0756f48bf5933045623781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/19121 Variant.prefab using Guid(2b3cfdb2af0756f48bf5933045623781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786467bcdb4df2f0da477e71638b02e9') in 0.029937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Pine_Snowy1 (57) Variant.prefab
-  artifactKey: Guid(bd776e74fc4139e42873e2c2a1493792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (57) Variant.prefab using Guid(bd776e74fc4139e42873e2c2a1493792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b328d0a012e2ec2f66005d7395b4f832') in 0.023114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pine_Snowy1 (72) Variant.prefab
-  artifactKey: Guid(ae9c2bc867a35a740bd0f91575a50105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (72) Variant.prefab using Guid(ae9c2bc867a35a740bd0f91575a50105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6860245815f2cfadecde3826f17bc03c') in 0.025519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/11477 (1) Variant.prefab
-  artifactKey: Guid(132993210efb84943a470d9253ad6885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/11477 (1) Variant.prefab using Guid(132993210efb84943a470d9253ad6885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72f82e3d3d0fb91f0c677c242c4439b') in 0.023932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pine_Snowy2 (71) Variant.prefab
-  artifactKey: Guid(f4d1ecfe478c0bb44927cc08bb72be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (71) Variant.prefab using Guid(f4d1ecfe478c0bb44927cc08bb72be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cc89c55bc7fe22ba16eae30a84b4bf') in 0.023614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pine_Snowy2 (102) Variant.prefab
-  artifactKey: Guid(8f1a0774e88e9834d99c945ce78f934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (102) Variant.prefab using Guid(8f1a0774e88e9834d99c945ce78f934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7efe96b0b402c044db7e4768ba66d9') in 0.026648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pine_Snowy2 (60) Variant.prefab
-  artifactKey: Guid(ad3457a13ea9146489fdd6ae9182b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (60) Variant.prefab using Guid(ad3457a13ea9146489fdd6ae9182b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0d05f71001a527d10a0a6873dab1ac') in 0.027791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pine_Snowy2 (26) Variant.prefab
-  artifactKey: Guid(28d267b50d50ff943b22688720326982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (26) Variant.prefab using Guid(28d267b50d50ff943b22688720326982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0afb164ef8e61c872278aecc52281') in 0.031175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pine_Snowy1 (78) Variant.prefab
-  artifactKey: Guid(f00d4db62b4212347bfbcf790e98b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy1 (78) Variant.prefab using Guid(f00d4db62b4212347bfbcf790e98b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05705ab616318b76c658f91b85df93f7') in 0.030812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Pine_Snowy2 (33) Variant.prefab
-  artifactKey: Guid(45350956f725029438d79dda3c74cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (33) Variant.prefab using Guid(45350956f725029438d79dda3c74cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdbad651e83c79bb48bb6fb69a7e8c') in 0.027578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pine_Snowy2 (124) Variant.prefab
-  artifactKey: Guid(36b036dea2339c5428fdd742e8cb4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (124) Variant.prefab using Guid(36b036dea2339c5428fdd742e8cb4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da9fde5a926a6e450a4f0926f96b60d') in 0.025893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pine_Snowy2 (39) Variant.prefab
-  artifactKey: Guid(6b6a07fefe01ddc4eaba5b62e07dc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (39) Variant.prefab using Guid(6b6a07fefe01ddc4eaba5b62e07dc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92085197a4ba9e747ba6a202ac39a4d4') in 0.023276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pine_Snowy2 (106) Variant.prefab
-  artifactKey: Guid(336c1b9ef3ff7b34d9f61bb321d8a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (106) Variant.prefab using Guid(336c1b9ef3ff7b34d9f61bb321d8a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7648e1773aa10f0113d096761d39ea53') in 0.024991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pine_Snowy2 (48) Variant.prefab
-  artifactKey: Guid(153e773050916754a91ce4062fe5fabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pine_Snowy2 (48) Variant.prefab using Guid(153e773050916754a91ce4062fe5fabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4492bb6ec1d1e9662811382b23e8e7') in 0.025092 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 249.886734 seconds.
+  path: Assets/AddOns/MgLEGO Gingerbricks Revenge/Prefabs/Objectives/Objective Collect Presents.prefab
+  artifactKey: Guid(8bc13d8af84ddd54da4e5a432ba21429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Gingerbricks Revenge/Prefabs/Objectives/Objective Collect Presents.prefab using Guid(8bc13d8af84ddd54da4e5a432ba21429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68500c71b77edfd1591372fb5f4516ae') in 0.338439 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\legoChristmasMicrogame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2370ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1949ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+				TypeCache.Initialize (597ms)
+					TypeCache.ScanAssembly (585ms)
+				ResolveRequiredComponents (17ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (886ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (3.8 MB). Loaded Objects now: 6502.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 10.326000 ms (FindLiveObjects: 1.966800 ms CreateObjectMapping: 1.057100 ms MarkObjects: 4.856900 ms  DeleteObjects: 2.443000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
